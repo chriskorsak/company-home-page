@@ -25,7 +25,7 @@ nav li {
   list-style-type: none;
 }
 
-nav a {
+a {
   color: black;
   font-size: 1.5rem;
   text-decoration: underline;
@@ -59,4 +59,23 @@ nav a {
 }
 .service img {
   width: 350px;  
+}
+
+#team {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.teamMember {
+  margin: 15px;
+}
+
+.teamMember img {
+  width: 350px;
+}
+
+footer {
+  background-color: rgb(240, 240, 240);
+  padding: 10px;
 }
