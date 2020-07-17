@@ -15,9 +15,8 @@ h1 {
   font-size: 3rem;
 }
 
-.flexContainer {
+nav ul {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
 }
 
@@ -30,6 +29,23 @@ nav a {
   color: black;
   font-size: 1.5rem;
   text-decoration: underline;
+}
+
+#mission {
+  background-image: url('../images/austin-neill-JNvRecQ24Bk-unsplash.jpg');
+  background-position: center;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#mission #statement {
+  background-color: rgba(255, 255, 255, .8);
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .service img {
