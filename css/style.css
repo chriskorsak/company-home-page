@@ -22,6 +22,7 @@ nav ul {
 
 nav li {
   flex-basis: 300px;
+  flex: 1;
   list-style-type: none;
 }
 
@@ -35,6 +36,8 @@ a {
   background-image: url('../images/austin-neill-JNvRecQ24Bk-unsplash.jpg');
   background-position: center;
   height: 600px;
+  margin-left: 15px;
+  margin-right: 15px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -56,9 +59,11 @@ a {
 
 .service {
   margin: 15px;
+  flex: 1 325px; /* shorthand for flex-grow: 1 and flex-basis: 325px; */
+  max-width: 600px;
 }
 .service img {
-  width: 350px;  
+  width: 100%;  /* this makes images resize to browser window size */
 }
 
 #team {
