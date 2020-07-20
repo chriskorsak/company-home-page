@@ -6,7 +6,7 @@
 
 ## Description
 
-_This mock website uses flexbox, a part of css to help with page layout and styling. The web page is responsive and adjusts for different screen sizes and devices. Please visit the [LHM Marketing home page](http://chriskorsak.github.io/company-home-page) to see the live site on github pages._
+_This mock website uses flexbox, a part of css to help with page layout and styling. The web page is responsive and adjusts for different screen sizes and devices. Please visit the [LHM Marketing home page](https://chriskorsak.github.io/company-home-page) to see the live site on github pages._
 
 ## Technologies Used
 
